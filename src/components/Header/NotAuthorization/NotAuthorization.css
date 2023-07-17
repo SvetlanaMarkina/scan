@@ -1,0 +1,43 @@
+.accountBtn {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 34vw;
+}
+.accountBtn__link {
+    align-self: center;
+    text-decoration: none;
+    color:black;
+    opacity: 40%;
+    pointer-events: none;
+}
+.slash {
+    margin-left: 5%;
+}
+.accountBtn__login {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    height: 25px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(124, 227, 225, 1);
+    margin-left: 5%;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+@media screen and (max-width:1320px) {
+    .accountBtn__link, .slash, .accountBtn__login {
+        margin-right: 5%;
+    }
+}
+@media screen and (max-width:1320px) {
+    .accountBtn {
+        width: 44vw;
+    }
+}
+@media screen and (max-width: 950px) {
+    .accountBtn {
+        display: none;
+    }
+}

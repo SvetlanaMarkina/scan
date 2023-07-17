@@ -1,0 +1,209 @@
+.searchForm {
+    width:55vw;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+.searchForm__wrap {
+    display:flex;
+    justify-content: space-between;
+    padding:21px 39px 32px 44px;
+}
+
+.searchForm__inputs {
+    display: flex;
+    flex-direction: column;
+    width:50%;
+}
+
+.searchForm__btn {
+    display:flex;
+    flex-direction: column;
+}
+
+.input {
+    width:60%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+    font-size: 14px;
+    line-height: 17px;
+    padding:13px;
+    border:1px solid rgba(199, 199, 199, 1);
+    margin: 20px 0 30px 0;
+}
+
+#tone {
+    background: url('./arrowDown.svg') no-repeat center;
+    background-position-x: 95%;
+    appearance: none;
+    overflow: hidden;
+}
+
+#start::-webkit-calendar-picker-indicator, #end::-webkit-calendar-picker-indicator {
+    background: url('./arrowDown.svg') no-repeat center;
+    background-position-x: 95%;
+}
+
+#start, #end {
+    margin-right: 20px;
+    width:44%;
+}
+
+.label {
+    font-size: 18px;
+}
+
+.sup {
+    font-size: 17px;
+}
+
+.checkBox {
+    display: inline-block;
+    height: 0.8em;
+    width: 0.8em;
+    border: 1px solid black;
+    margin-right: 0.9em;
+    margin-top: -3px;
+    appearance: none;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 78% 87%;
+}
+
+.checkBox:checked {
+    content: url('./check.svg');
+}
+
+.check {
+    margin-bottom: 15px;
+}
+
+.searchForm__checkBoxes {
+    margin-top: 10px;
+}
+
+.toggleSvg {
+    display:none;
+}
+
+.searchForm__button {
+    width: 335px;
+    font-size: 22px;
+    font-weight: 500;
+    background-color: rgba(89, 112, 255, 1);
+    color: #FFFFFF;
+    margin-top: 70px;
+    height: 60px;
+    border-radius: 5px;
+    border: none;
+}
+
+.toggle-btn {
+    display:none;
+}
+
+.searchForm__checkBoxesAndBtn{
+    display: flex;
+    flex-direction: column;
+    gap: 120px;
+}
+
+.requestForm__button {
+    width: 100%;
+    height: 60px;
+    font-size: 22px;
+    font-weight: 500;
+    background-color: rgba(89, 112, 255, 1);
+    color: #FFFFFF;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+.main__right-box {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+input:disabled {
+    opacity: 40%;
+}
+
+.disabled {
+    opacity: 40%;
+}
+
+.errorSup {
+    color: rgba(255, 89, 89, 1);
+}
+
+.innError {
+    color: rgba(255, 89, 89, 1);
+    margin-top: -30px;
+    font-size: 15px;
+}
+
+.inputError {
+    width:60%;
+    background-color: rgb(254, 240, 174);
+    color: rgba(255, 89, 89, 1);
+    border:1px solid rgba(255, 89, 89, 1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+    padding: 13px;
+    font-size: 14px;
+    line-height: 17px;
+    margin: 20px 0 30px 0;
+}
+
+@media screen and (max-width: 1400px){
+    .searchForm__wrap {
+        position: relative;
+    }
+    .searchForm {
+        width:97vw;
+    }
+    .toggleSvg {
+        position:absolute;
+        display:block;
+        margin: -160px 0px 0 60vw;
+    }
+    .dateSpan {
+        display: flex;
+        flex-direction: column;
+    }
+    .dateSpan>input {
+        margin:0px
+    }
+    #start, #end{
+        width:60%;
+        margin: 10px 0;
+    }
+    .dateError {
+        margin-top: -10px;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .searchForm__checkBoxesAndBtn {
+        display: none;
+    }
+    .toggle-btn {
+        display: block;
+        margin-top: 30px;
+    }
+    .input, #start, #end {
+        width: 98%;
+    }
+    .searchForm__wrap {
+        justify-content: center;
+    }
+    .searchForm__inputs {
+        min-width: 350px;
+    }
+    .searchBarImg {
+        min-width:330px ;
+    }
+}

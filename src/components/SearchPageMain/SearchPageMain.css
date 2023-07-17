@@ -1,0 +1,72 @@
+.main_search {
+    margin:0 auto;
+    font-family: 'Inter',Arial, Helvetica, sans-serif;
+}
+
+.main__wrap_search {
+    display: flex;
+    justify-content:space-between;
+    margin: 40px auto 0 auto;
+    width:96vw
+}
+
+.main__left-box {
+    display:flex;
+    flex-direction: column;
+    width: 40vw;
+}
+
+.main_header {
+    font-family: 'Ferry', Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    width: 50vw;
+}
+
+.upper-imgs {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    margin-left: -9vw;
+    gap: 15vw;
+}
+
+.searchImg {
+    margin-top: 255px;
+}
+
+@media screen and (max-width: 1400px){
+    .main__wrapper_search {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+        width:96vw
+    }
+    .upper-imgs {
+        display: none;
+    }
+    .main__left-box {
+        width: 90%;
+        align-items: center;
+    }
+    .main__left-box>section {
+        width:70%;
+    }
+    .searchImg {
+        margin-top: 10vh;
+    }
+    .main_header {
+        align-self: flex-start;
+    }
+    .main_header+section {
+        align-self: flex-start;
+    }
+}
+
+@media screen and (max-width:900px){
+    .searchImg{
+        margin-top: 0vh;
+        scale: 0.8;
+        width: 330px;
+    }
+}

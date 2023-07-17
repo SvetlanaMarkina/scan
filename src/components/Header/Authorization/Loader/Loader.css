@@ -1,0 +1,11 @@
+.loaderBox {
+    font-size:10px;
+    line-height:20px;
+    width:175px;
+    height: 63px;
+    text-align: center;
+    background-color: rgba(217, 217, 217, 1);
+    border-radius: 5px;
+    padding:10px;
+    padding-top: 1px;
+}

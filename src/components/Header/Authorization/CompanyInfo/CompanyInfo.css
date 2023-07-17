@@ -1,0 +1,29 @@
+.companyBox{
+    display: flex;
+    flex-direction: column;
+    height: 63px;
+    background-color: rgba(217, 217, 217, 1);
+    padding:10px;
+    border-radius: 5px;
+    font-size:10px;
+    line-height:20px;
+    align-items: flex-end;
+    margin-right: 7vw;
+}
+.companyBox__companyInfo {
+    font-size: 10px;
+    line-height: 12px;
+    opacity: 40%;
+    text-align: end;  
+    margin-right: 8px; 
+}
+.companyBox__numberBlack {
+    font-weight: 700;
+    font-size: 14px;
+    color:black
+}
+.companyBox__numberGreen {
+    font-weight: 700;
+    font-size: 14px;
+    color: rgba(138, 197, 64, 1);
+}

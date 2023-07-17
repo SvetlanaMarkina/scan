@@ -1,0 +1,16 @@
+.main {
+    margin: 0 auto;
+}
+
+.main__wrap_common {
+    display: flex;
+    flex-direction: column;
+    width: 96vw;
+    margin: 0 auto;
+}
+
+@media screen and(max-width: 1150px) {
+    .man {
+        width:100%;
+    }
+}

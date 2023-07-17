@@ -1,0 +1,17 @@
+.footer {
+    margin-top: 96px ;
+    background-color: rgba(2, 148, 145, 1);
+}
+
+.footer__wrap {
+    display: flex;
+    justify-content: space-between;
+    width: 96vw;
+    margin: 0 auto;
+}
+
+.footer__connectInfo{
+    text-align: flex-end;
+    margin-top: 27px;
+    color:white;
+}

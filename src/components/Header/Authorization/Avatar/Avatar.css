@@ -1,0 +1,22 @@
+.avatar{
+    display: flex;
+}
+
+.avatarBtn{
+    border: none;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    background-color: white;
+    opacity: 40%;
+    text-align: flex-end;
+}
+
+.avatar__name{
+    display: flex;
+    flex-direction: column;
+}
+
+.avatar__img{
+    margin:5px 0 0 5px;
+}

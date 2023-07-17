@@ -1,0 +1,10 @@
+.header {
+    margin: 0 auto;
+}
+.header__wrap{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 96vw;
+}
+
